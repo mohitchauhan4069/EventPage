@@ -1,0 +1,282 @@
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .w-100 {
+            max-height: 700px;
+            width: 100%;
+        }
+        
+        .carousel-caption {
+            bottom: 250px;
+        }
+        
+        .book-theme {
+            background-color: chocolate;
+        }
+        /*____________________COUTDOWN CSS_______________*/
+        
+        .countdown {
+            height: 100%;
+            width: 100%;
+            background: rgb(53, 44, 199);
+            background: linear-gradient(90deg, rgba(53, 44, 199, 1) 0%, rgba(61, 221, 160, 1) 100%);
+        }
+        
+        #count-heading1 {
+            color: white;
+            text-align: center;
+        }
+        
+        .forCount {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            max-width: 52%;
+            margin: auto;
+        }
+        
+        .forCount .count {
+            border: 3px solid white;
+            color: rgb(143, 12, 12);
+            height: 150px;
+            max-width: 150px;
+            background: linear-gradient(to bottom left, #22c1c3 50%, #bdeff0 50%);
+            text-align: center;
+            margin: 10px;
+            text-transform: uppercase;
+            color: black;
+        }
+        
+        .count:hover {
+            background: linear-gradient( to bottom right, #bdeff0 50%, #22c1c3 50%);
+        }
+        
+        .cout-text {
+            padding: 50px;
+        }
+        
+        .cout-text p {
+            text-align: center;
+            color: white;
+        }
+        
+        @media only screen and (max-width: 900px) {
+            .forCount {
+                grid-template-columns: auto auto;
+            }
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .forCount {
+                grid-template-columns: auto;
+            }
+        }
+        
+        .count p {
+            margin-top: 30px;
+            font-size: 25px;
+        }
+        
+        #demo0 {
+            margin-top: -25PX;
+        }
+        
+        .Event {
+            margin: 0;
+            padding: 0;
+            background: rgba(61, 221, 160, 1);
+            background: linear-gradient(90deg, rgba(61, 221, 160, 1) 0%, rgba(53, 44, 199, 1) 100%);
+            height: 100%;
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        
+        .count-parent {
+            padding-bottom: 100px;
+        }
+        
+        .col img {
+            margin-top: 25px;
+            height: 500px;
+            width: 600px;
+        }
+        
+        .row {
+            height: 100%;
+            width: 80vw;
+            margin: auto;
+            padding: 10px;
+        }
+        
+        .col {
+            margin-top: 100px;
+            text-align: left;
+        }
+        
+        @media only screen and (max-width:320px) {
+            .col img {
+                height: 150px;
+                width: 150px;
+                margin-left: -45px;
+            }
+        }
+        
+        @media only screen and (max-width:375px) {
+            .col img {
+                height: 250px;
+                width: 250px;
+            }
+        }
+        
+        @media only screen and (max-width:425px) {
+            .col img {
+                height: 300px;
+                width: 300px;
+            }
+        }
+        
+        .icon1 {
+            display: inline;
+            padding: 30px;
+            text-align: left;
+        }
+        
+        .btn-secondary {
+            background-image: linear-gradient(to right, #B24592 0%, #F15F79 51%, #B24592 100%)
+        }
+        
+        .btn-secondary {
+            margin-top: 30px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        .btn-secondary:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .card-body {
+            display: block;
+        }
+        
+        .speaker-card {
+            margin-top: 40px;
+        }
+        
+        .speaker {
+            background: rgb(53, 44, 199);
+            background: linear-gradient(90deg, rgba(53, 44, 199, 1) 0%, rgba(61, 221, 160, 1) 100%);
+            height: 100%;
+            width: 100%;
+        }
+        
+        .speaker-heading {
+            height: auto;
+            width: 80vw;
+            margin: auto;
+            padding: 47px;
+            display: block;
+        }
+        
+        #our-speakr0 {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        
+        #our-speakr1 {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        .speaker-card {
+            height: 100%;
+            width: 80vw;
+            margin: auto;
+            padding-bottom: 40px;
+        }
+        
+        .card {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .row-one {
+            background-color: lightseagreen;
+        }
+        
+        .col-sm {
+            display: inline;
+            height: 350px;
+            width: 300px;
+            color: black;
+            margin: 5px;
+            background-color: whitesmoke;
+            text-align: center;
+        }
+        
+        .col-sm img {
+            margin: 15px 0px 10px;
+        }
+        
+        .text-center {
+            margin: auto;
+            margin-top: 10px;
+        }
+        /* schedule css */
+        
+        .Shedule {
+            height: 100%;
+            width: 100%;
+            background: rgba(61, 221, 160, 1);
+            background: linear-gradient(90deg, rgba(61, 221, 160, 1) 0%, rgba(53, 44, 199, 1) 100%);
+            position: absolute;
+        }
+        
+        .Shedule-container {
+            height: 100%;
+            width: 80vw;
+            margin: auto;
+        }
+        
+        .Shedule-heading {
+            text-align: center;
+            margin-top: 70px;
+            margin-bottom: 40px;
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        .sm-1 {
+            margin-top: -20px;
+            color: black;
+            text-transform: uppercase;
+            height: 100px;
+            padding: 5px;
+            text-align: center;
+            background: linear-gradient(to bottom left, #22c1c3 50%, #bdeff0 50%);
+        }
+        
+        .sm-1:hover {
+            background: linear-gradient( to bottom right, #bdeff0 50%, #22c1c3 50%);
+        }
+        
+        .sm-1 p {
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
+        }
